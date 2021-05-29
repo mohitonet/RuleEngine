@@ -44,6 +44,14 @@ public class Program
 				Category = "Product"
 			}
 		};
+
+		foreach (var rule in rulesToProcess)
+		{
+			foreach (var item in Items.WhereRules(rule.Rule))
+			{
+				Console.WriteLine("{0} {1} - {2:d}", rule.RuleName, item.Name, item.Type);
+			}
+		}
 	}
 
 	private static new Rules[] rulesToProcess = new[]
@@ -158,6 +166,8 @@ public class Program
 		}
 	};
 
+}
+
 	public class Items
 	{
 		public string Name { get; set; }
@@ -179,5 +189,28 @@ public class Program
 		public string RuleName { get; set; }
 		public Rule[] Rule { get; set; }
 
+	}
+
+public static class EnumerableExtensions
+{
+	public static IEnumerable<T> WhereRules<T>(this IEnumerable<T> source, IEnumerable<Rule> rules)
+	{
+		var parameter = Expression.Parameter(typeof(T));
+		BinaryExpression binaryExpression = null;
+
+		foreach (var rule in rules)
+		{
+			var prop = Expression.Property(parameter, rule.PropertyName);
+			var value = Expression.Constant(rule.Value);
+			var newBinary = Expression.MakeBinary(rule.Operation, prop, value);
+
+			binaryExpression =
+				binaryExpression == null
+				? newBinary
+				: Expression.MakeBinary(ExpressionType.AndAlso, binaryExpression, newBinary);
+		}
+
+		var cookedExpression = Expression.Lambda<Func<T, bool>>(binaryExpression, parameter).Compile();
+		return source.Where(cookedExpression);
 	}
 }

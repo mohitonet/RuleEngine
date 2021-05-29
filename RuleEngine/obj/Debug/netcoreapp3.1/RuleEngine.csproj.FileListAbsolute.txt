@@ -11,3 +11,16 @@ C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.
 C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.dll
 C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.pdb
 C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.genruntimeconfig.cache
+D:\RuleEngine\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.exe
+D:\RuleEngine\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.deps.json
+D:\RuleEngine\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.runtimeconfig.json
+D:\RuleEngine\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.runtimeconfig.dev.json
+D:\RuleEngine\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.dll
+D:\RuleEngine\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.pdb
+D:\RuleEngine\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.csprojAssemblyReference.cache
+D:\RuleEngine\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.AssemblyInfoInputs.cache
+D:\RuleEngine\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.AssemblyInfo.cs
+D:\RuleEngine\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.csproj.CoreCompileInputs.cache
+D:\RuleEngine\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.dll
+D:\RuleEngine\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.pdb
+D:\RuleEngine\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.genruntimeconfig.cache
