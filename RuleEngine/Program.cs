@@ -46,6 +46,118 @@ public class Program
 		};
 	}
 
+	private static new Rules[] rulesToProcess = new[]
+	{
+		new Rules
+		{
+			RuleId=1,
+			RuleName="Generate packing slip for",
+			Rule= new Rule[]
+			{
+				new Rule {
+				PropertyName = "Type",
+				Operation = ExpressionType.Equal,
+				Value = "Physical"
+				}
+			}
+		},
+		new Rules
+		{
+			RuleId=1,
+			RuleName="Generate duplicate packing slip for",
+			Rule= new Rule[]
+			{
+				new Rule {
+					PropertyName = "Type",
+					Operation = ExpressionType.Equal,
+					Value = "Physical"
+				},
+				new Rule {
+					PropertyName = "Category",
+					Operation = ExpressionType.Equal,
+					Value = "Book"
+				}
+			}
+		},
+		new Rules
+		{
+			RuleId=1,
+			RuleName="Generate commission to agent for",
+			Rule= new Rule[]
+			{
+				new Rule {
+					PropertyName = "Type",
+					Operation = ExpressionType.Equal,
+					Value = "Physical"
+				},
+				new Rule {
+					PropertyName = "Category",
+					Operation = ExpressionType.Equal,
+					Value = "Book"
+				}
+			}
+		},
+		new Rules
+		{
+			RuleId=1,
+			RuleName="Activate membership for",
+			Rule= new Rule[]
+			{
+				new Rule {
+					PropertyName = "Type",
+					Operation = ExpressionType.Equal,
+					Value = "Virtual"
+				},
+				new Rule {
+					PropertyName = "Category",
+					Operation = ExpressionType.Equal,
+					Value = "Membership"
+				}
+			}
+		},
+		new Rules
+		{
+			RuleId=1,
+			RuleName="Renew membership for",
+			Rule= new Rule[]
+			{
+				new Rule {
+					PropertyName = "Type",
+					Operation = ExpressionType.Equal,
+					Value = "Virtual"
+				},
+				new Rule {
+					PropertyName = "Category",
+					Operation = ExpressionType.Equal,
+					Value = "Membership Renew"
+				}
+			}
+		},
+		new Rules
+		{
+			RuleId=1,
+			RuleName="Add video \"first aid\" with",
+			Rule= new Rule[]
+			{
+				new Rule {
+					PropertyName = "Type",
+					Operation = ExpressionType.Equal,
+					Value = "Virtual"
+				},
+				new Rule {
+					PropertyName = "Category",
+					Operation = ExpressionType.Equal,
+					Value = "Video"
+				},
+				new Rule {
+					PropertyName = "Name",
+					Operation = ExpressionType.Equal,
+					Value = "Learning to ski"
+				}
+			}
+		}
+	};
+
 	public class Items
 	{
 		public string Name { get; set; }
