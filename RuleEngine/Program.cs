@@ -52,4 +52,20 @@ public class Program
 		public string Type { get; set; }
 		public string Category { get; set; }
 	}
+
+	public class Rule
+	{
+		public string PropertyName { get; set; }
+		public ExpressionType Operation { get; set; }
+		public object Value { get; set; }
+		public string Action { get; set; }
+	}
+
+	public class Rules
+	{
+		public int RuleId { get; set; }
+		public string RuleName { get; set; }
+		public Rule[] Rule { get; set; }
+
+	}
 }
