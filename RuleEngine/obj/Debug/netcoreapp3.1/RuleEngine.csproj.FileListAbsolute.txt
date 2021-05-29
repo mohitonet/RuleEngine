@@ -1,0 +1,13 @@
+C:\Users\mohit.kumar\source\repos\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.exe
+C:\Users\mohit.kumar\source\repos\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.deps.json
+C:\Users\mohit.kumar\source\repos\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.runtimeconfig.json
+C:\Users\mohit.kumar\source\repos\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.runtimeconfig.dev.json
+C:\Users\mohit.kumar\source\repos\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.dll
+C:\Users\mohit.kumar\source\repos\RuleEngine\bin\Debug\netcoreapp3.1\RuleEngine.pdb
+C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.csprojAssemblyReference.cache
+C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.AssemblyInfoInputs.cache
+C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.AssemblyInfo.cs
+C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.dll
+C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.pdb
+C:\Users\mohit.kumar\source\repos\RuleEngine\obj\Debug\netcoreapp3.1\RuleEngine.genruntimeconfig.cache
